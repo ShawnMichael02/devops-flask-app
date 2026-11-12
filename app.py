@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Connect to Redis container
 r = redis.Redis(
-    host='redis-server',
+    host='the-redis-server',
     port=6379,
     decode_responses=True
 )
